@@ -15,7 +15,7 @@ const genLocale = async (lang) => {
   const listTextTrans = text.split('\n')
   for (let index = 0; index < Object.keys(localeJson).length; index++) {
     const element = Object.keys(localeJson)[index];
-    localeJson[`${element}`] = listTextTrans[index]
+    localeJson[`${element}`] = listTextTrans[index].charAt(0).toUpperCase() + listTextTrans[index].slice(1);
   }
   fs.writeFile(`locale/${lang}.json`, JSON.stringify(localeJson, null, 2), (err) => { });
 }

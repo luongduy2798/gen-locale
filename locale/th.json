@@ -12,7 +12,7 @@
   "ANYCHAT 친구 찾기": "ค้นหาเพื่อนในแชท",
   "App 접근 권한 안내": "ข้อมูลสิทธิ์การเข้าถึงแอป",
   "App을 설치하지 않아도\nQr코드를 스캔하여 채팅 할 수 있습니다.\n채팅방 개설자가 채팅방에서 퇴장하면 채팅이 종료되며,\n 채팅 기록은 서버에 저장되지 않습니다": "คุณสามารถแชทโดยสแกนโค้ด Qr โดยไม่ต้องติดตั้งแอป เมื่อผู้สร้างห้องสนทนาออกจากห้องสนทนา การแชทจะสิ้นสุดลงและบันทึกการสนทนาจะไม่ถูกบันทึกไว้บนเซิร์ฟเวอร์",
-  "default_notification_channel_name": "default_notification_channel_name",
+  "default_notification_channel_name": "Default_notification_channel_name",
   "Enter your info": "ป้อนข้อมูลของคุณ",
   "Generate QR Code": "สร้างรหัส QR",
   "ID 등록하기": "ลงทะเบียนบัตรประจำตัวของคุณ",

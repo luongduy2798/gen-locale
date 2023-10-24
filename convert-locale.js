@@ -1,21 +1,25 @@
-import { translate } from '@vitalets/google-translate-api';
-import { HttpProxyAgent } from 'http-proxy-agent';
 import localeJson from "./file-init/locale.json" assert { type: "json" };
 import fs from 'fs';
+import { Translate } from '@google-cloud/translate/build/src/v2/index.js';
+import * as serviceAccount from './service-account.json' assert { type: "json" };
+
 const TEXT_KEY = '*ANHDUYDEPTRAIVKL*'
-const agent = new HttpProxyAgent('http://163.53.18.119:80');
 const lang = ['ar', 'de', 'en', 'es', 'fr', 'id', 'ja', 'ko', 'pt', 'ru', 'th', 'tl', 'tr', 'vi', 'zh-cn', 'zh-tw']
+const service = new Translate({ projectId: 'myhome-e4c53', credentials: serviceAccount.default });
+const LENGTH = 200 // dịch 200 field 1 lần
 
 const genLocale = async (lang) => {
-  const newString = Object.values(localeJson).join(TEXT_KEY).replaceAll('\n', ' ').replaceAll(TEXT_KEY, '\n')
-  const { text } = await translate(newString, {
-    to: lang,
-    fetchOptions: { agent }
-  });
-  const listTextTrans = text.split('\n')
+  let textTrans = ''
+  for (let index = 0; index < Math.round(Object.values(localeJson).length / LENGTH); index++) {
+    const element = Object.values(localeJson).slice(LENGTH * index, LENGTH * (index + 1))
+    const newString = element.join(TEXT_KEY).replaceAll('\n', ' ').replaceAll(TEXT_KEY, '\n')
+    const [text] = await service.translate(newString, lang);
+    textTrans += text + '\n'
+  }
+  const listTextTrans = textTrans.split('\n')
   for (let index = 0; index < Object.keys(localeJson).length; index++) {
     const element = Object.keys(localeJson)[index];
-    localeJson[`${element}`] = listTextTrans[index].charAt(0).toUpperCase() + listTextTrans[index].slice(1);
+    localeJson[`${element}`] = listTextTrans[index]?.charAt(0).toUpperCase() + listTextTrans[index]?.slice(1);
   }
   fs.writeFile(`locale/${lang}.json`, JSON.stringify(localeJson, null, 2), (err) => { });
 }

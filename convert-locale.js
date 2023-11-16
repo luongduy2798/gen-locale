@@ -6,7 +6,7 @@ import * as serviceAccount from './service-account.json' assert { type: "json" }
 const TEXT_KEY = '*ANHDUYDEPTRAIVKL*'
 const lang = ['ar', 'de', 'en', 'es', 'fr', 'id', 'ja', 'ko', 'pt', 'ru', 'th', 'tl', 'tr', 'vi', 'zh-cn', 'zh-tw']
 const service = new Translate({ projectId: 'myhome-e4c53', credentials: serviceAccount.default });
-const LENGTH = 200 // dịch 200 field 1 lần, nếu lỗi thì giảm giá trị này đi cho đến khi thoả mãn
+const LENGTH = Object.values(localeJson).length > 200 ? 200 : Object.values(localeJson).length // dịch 200 field 1 lần, nếu lỗi thì giảm giá trị này đi cho đến khi thoả mãn
 
 const genLocale = async (lang) => {
   let textTrans = ''

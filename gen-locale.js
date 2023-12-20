@@ -16,5 +16,5 @@ await Promise.all(listText.map(async (item, index) => {
   const newText = text.charAt(0).toUpperCase() + text.slice(1);
   gen[newText] = item
 }))
-fs.writeFile(`gen/gen.json`, JSON.stringify(gen, null, 2), (err) => { });
+fs.writeFile(`file-init/locale.json`, JSON.stringify(gen, null, 2), (err) => { });
 

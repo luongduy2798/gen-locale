@@ -1,6 +1,4 @@
 node_modules/
-file-init/locale.json
-file-init/text.js
 gen/gen.json
 locale/ar.json
 locale/de.json

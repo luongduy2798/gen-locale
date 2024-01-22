@@ -1,7 +1,7 @@
-import localeJson from "./file-init/locale.json" assert { type: "json" };
+import localeJson from "./file-init/locale.json";
 import fs from 'fs';
 import { Translate } from '@google-cloud/translate/build/src/v2/index.js';
-import * as serviceAccount from './service-account.json' assert { type: "json" };
+import * as serviceAccount from './service-account.json';
 
 const TEXT_KEY = '*ANHDUYDEPTRAIVKL*'
 const lang = ['ar', 'de', 'en', 'es', 'fr', 'id', 'ja', 'ko', 'pt', 'ru', 'th', 'tl', 'tr', 'vi', 'zh-cn', 'zh-tw']

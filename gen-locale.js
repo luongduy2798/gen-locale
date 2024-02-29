@@ -2,7 +2,7 @@ import { TEXT } from "./file-init/text.js";
 import fs from 'fs';
 import { Translate } from '@google-cloud/translate/build/src/v2/index.js';
 import * as serviceAccount from './service-account.json' assert { type: "json" };
-const LANG_KEY = '';
+const LANG_KEY = 'en';
 
 function removeDuplicates(arr) {
   return [...new Set(arr)];

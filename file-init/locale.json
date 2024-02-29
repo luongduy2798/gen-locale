@@ -1,12 +1,15 @@
 {
-  "Terms and policies": "Terms and policies",
-  "Continue": "Continue",
-  "(Required) I agree to the Terms of Service.": "(필수) 서비스 이용약관에 동의합니다.",
-  "I agree with all of the above.": "위 항목에 모두 동의합니다.",
-  "(Required) I agree to the Youth Protection Policy.": "(필수) 청소년 보호 정책에 동의합니다.",
-  "(Optional) I agree to receive advertising information.": "(선택) 광고성 정보 수신 동의합니다.",
-  "(Required) I agree to location-based services.": "(필수) 위치기반서비스에 동의합니다.",
-  "(Required) I agree to the collection and use of unique identification information.": "(필수) 고유식별정보 수집 및 이용에 동의합니다.",
-  "(Optional) I agree to the collection and use of personal information for promotional and marketing purposes.": "(선택) 홍보 및 마케팅 목적 개인정보 수집 이용 에 동의합니다.",
-  "(Required) I agree to the privacy policy.": "(필수) 개인정보처리방침에 동의합니다."
+  "terms_of_service": "Terms of Service",
+  "i_agree": "I agree.",
+  "youth_protection_policy": "Youth Protection Policy",
+  "receiving_advertising_information": "Receiving advertising information",
+  "privacy_policy": "Privacy policy",
+  "continue": "Continue",
+  "collection_and_use_of_unique_identification_information": "Collection and use of unique identification information",
+  "select": "(select)",
+  "terms_and_policies": "Terms and policies",
+  "locationbased_service": "Location-based service",
+  "essential": "(essential)",
+  "collection_and_use_of_personal_information_for_promotional_and_marketing_purposes": "Collection and use of personal information for promotional and marketing purposes",
+  "i_agree_with_all_of_the_above": "I agree with all of the above."
 }

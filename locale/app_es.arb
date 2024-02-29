@@ -1,0 +1,16 @@
+{
+  "calculate": "Calcular",
+  "settlementAmount": "Cantidad fijada",
+  "withholdingTax": "Retención de impuestos",
+  "carryoverAmount": "Importe remanente",
+  "totalAmoun": "La cantidad total",
+  "notePay": "Si el monto del pago es inferior a 10.000 wones, se trasladará automáticamente al mes siguiente.",
+  "detailSettlement": "Declaración de liquidación detallada",
+  "taxReceipt": "Recibo de retención de impuestos",
+  "statistics": "Estadísticas",
+  "downloadDetailSettlement": "Descargar detalles detallados de la liquidación",
+  "sendCode": "Enviar código",
+  "enterAuthCode": "Ingrese el código de verificación",
+  "emailAuth": "Verificacion de Email",
+  "downloadCompleted": "La descarga está completa"
+}

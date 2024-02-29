@@ -1,0 +1,16 @@
+{
+  "calculate": "計算",
+  "settlementAmount": "結算金額",
+  "withholdingTax": "預扣稅",
+  "carryoverAmount": "結轉金額",
+  "totalAmoun": "總量",
+  "notePay": "如果付款金額低於10,000韓元，則會自動結轉到下個月。",
+  "detailSettlement": "詳細結算單",
+  "taxReceipt": "預扣稅據",
+  "statistics": "統計數據",
+  "downloadDetailSettlement": "下載詳細的結算詳情",
+  "sendCode": "傳送代碼",
+  "enterAuthCode": "輸入驗證碼",
+  "emailAuth": "信箱認證",
+  "downloadCompleted": "下載完成"
+}

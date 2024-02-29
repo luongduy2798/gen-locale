@@ -1,0 +1,16 @@
+{
+  "calculate": "Calculate",
+  "settlementAmount": "Settlement amount",
+  "withholdingTax": "Withholding tax",
+  "carryoverAmount": "Carryover amount",
+  "totalAmoun": "The total amount",
+  "notePay": "If the payment amount is less than 10,000 won, it will be automatically carried over to the next month.",
+  "detailSettlement": "Detailed settlement statement",
+  "taxReceipt": "Withholding tax receipt",
+  "statistics": "Statistics",
+  "downloadDetailSettlement": "Download detailed settlement details",
+  "sendCode": "Send code",
+  "enterAuthCode": "Enter verification code",
+  "emailAuth": "Email Authentication",
+  "downloadCompleted": "Download is complete"
+}

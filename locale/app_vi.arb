@@ -1,0 +1,16 @@
+{
+  "calculate": "Tính toán",
+  "settlementAmount": "Số tiền quyết toán",
+  "withholdingTax": "Thuế nhà thầu",
+  "carryoverAmount": "Số tiền chuyển tiếp",
+  "totalAmoun": "Tổng số lượng",
+  "notePay": "Nếu số tiền thanh toán dưới 10.000 won, số tiền này sẽ tự động được chuyển sang tháng tiếp theo.",
+  "detailSettlement": "Quyết toán chi tiết",
+  "taxReceipt": "Biên lai khấu trừ thuế",
+  "statistics": "Số liệu thống kê",
+  "downloadDetailSettlement": "Tải chi tiết quyết toán chi tiết",
+  "sendCode": "Gửi mã",
+  "enterAuthCode": "Nhập mã xác nhận",
+  "emailAuth": "Xác thực email",
+  "downloadCompleted": "Tải xuống hoàn tất"
+}

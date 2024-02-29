@@ -1,0 +1,16 @@
+{
+  "calculate": "Berechnung",
+  "settlementAmount": "Abrechnungsbetrag",
+  "withholdingTax": "Quellensteuer",
+  "carryoverAmount": "Übertragsbetrag",
+  "totalAmoun": "Der Gesamtbetrag",
+  "notePay": "Beträgt der Zahlungsbetrag weniger als 10.000 Won, wird er automatisch auf den nächsten Monat übertragen.",
+  "detailSettlement": "Detaillierte Abrechnung",
+  "taxReceipt": "Quellensteuerbeleg",
+  "statistics": "Statistiken",
+  "downloadDetailSettlement": "Laden Sie detaillierte Abrechnungsdetails herunter",
+  "sendCode": "Code senden",
+  "enterAuthCode": "Bestätigungscode eingeben",
+  "emailAuth": "E-Mail-Authentifikation",
+  "downloadCompleted": "Der Download ist abgeschlossen"
+}

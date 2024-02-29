@@ -1,0 +1,16 @@
+{
+  "calculate": "정산",
+  "settlementAmount": "정산 금액",
+  "withholdingTax": "원천세",
+  "carryoverAmount": "이월금액",
+  "totalAmoun": "총 금액",
+  "notePay": "지급 금액이 10,000원 미만일 경우, 다음달로 자동 이월됩니다.",
+  "detailSettlement": "세부정산내역서",
+  "taxReceipt": "원천징수영수증",
+  "statistics": "통계",
+  "downloadDetailSettlement": "세부정산내역 다운",
+  "sendCode": "코드전송",
+  "enterAuthCode": "인증코드 입력",
+  "emailAuth": "이메일 인증",
+  "downloadCompleted": "다운로드가 완료되었습니다"
+}

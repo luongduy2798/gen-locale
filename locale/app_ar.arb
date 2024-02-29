@@ -1,0 +1,16 @@
+{
+  "calculate": "احسب",
+  "settlementAmount": "مبلغ التسوية",
+  "withholdingTax": "تجميد الضرائب",
+  "carryoverAmount": "المبلغ المرحل",
+  "totalAmoun": "المبلغ الكلي",
+  "notePay": "إذا كان مبلغ الدفع أقل من 10,000 وون، فسيتم ترحيله تلقائيًا إلى الشهر التالي.",
+  "detailSettlement": "بيان التسوية التفصيلي",
+  "taxReceipt": "حجب إيصال الضريبة",
+  "statistics": "إحصائيات",
+  "downloadDetailSettlement": "قم بتنزيل تفاصيل التسوية التفصيلية",
+  "sendCode": "إرسال الرمز",
+  "enterAuthCode": "أدخل رمز التحقق",
+  "emailAuth": "المصادقة البريد الإلكتروني",
+  "downloadCompleted": "اكتمل التنزيل"
+}

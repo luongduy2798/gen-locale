@@ -1,0 +1,16 @@
+{
+  "calculate": "Kalkulahin",
+  "settlementAmount": "Kasunduang presyo",
+  "withholdingTax": "Withholding tax",
+  "carryoverAmount": "Halaga ng carryover",
+  "totalAmoun": "Ang kabuuang halaga",
+  "notePay": "Kung ang halaga ng pagbabayad ay mas mababa sa 10,000 won, awtomatiko itong dadalhin sa susunod na buwan.",
+  "detailSettlement": "Detalyadong pahayag ng settlement",
+  "taxReceipt": "Resibo ng withholding tax",
+  "statistics": "Mga istatistika",
+  "downloadDetailSettlement": "I-download ang mga detalyadong detalye ng settlement",
+  "sendCode": "Magpadala ng code",
+  "enterAuthCode": "Ipasok ang verification code",
+  "emailAuth": "Email Authentication",
+  "downloadCompleted": "Kumpleto na ang pag-download"
+}

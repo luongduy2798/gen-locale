@@ -1,27 +1,6 @@
 export const TEXT = `
-Terms and policies
-위 항목에 모두 동의합니다.
-(필수)
-서비스 이용약관
-에 동의합니다.
-(필수)
-개인정보처리방침
-에 동의합니다.
-위치기반서비스
-에 동의합니다.
-고유식별정보 수집 및 이용
-에 동의합니다.
-청소년 보호 정책
-에 동의합니다.
-홍보 및 마케팅 목적 개인정보 수집 이용
-에 동의합니다.
-광고성 정보 수신
-동의합니다.
-
-(필수)
-(필수)
-(필수)
-(선택)
-(선택)
-Continue
+Registration application has been received
+A review period of 1-2 days is required after application.
+Once driver's license information and photos are verified and insurance screening is completed.
+We will notify you of the results via app push and text message.
 `;

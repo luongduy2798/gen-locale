@@ -1,16 +1,8 @@
 {
-  "calculate": "Hesaplamak",
-  "settlementAmount": "Yerleşim miktarı",
-  "withholdingTax": "Stopaj vergisi",
-  "carryoverAmount": "Devir tutarı",
-  "totalAmoun": "Toplam tutar",
-  "notePay": "Ödeme tutarı 10.000 won'un altındaysa otomatik olarak bir sonraki aya devredilecektir.",
-  "detailSettlement": "Ayrıntılı ödeme beyanı",
-  "taxReceipt": "Stopaj vergisi makbuzu",
-  "statistics": "İstatistik",
-  "downloadDetailSettlement": "Ayrıntılı ödeme ayrıntılarını indirin",
-  "sendCode": "Kodu gönder",
-  "enterAuthCode": "Dogrulama kodunu giriniz",
-  "emailAuth": "E-posta kimlik doğrulaması",
-  "downloadCompleted": "İndirme tamamlandı"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Size en uygun seçeneği sunabilmek için gerekli bazı bilgileri toplamamız gerekiyor",
+  "i_understand": "Anladım",
+  "choose_service": "Hizmet seçin",
+  "enter_your_address": "Adresinizi girin",
+  "how_to_use": "Nasıl kullanılır?",
+  "arrived_after_30_mins": "30 dakika sonra geldi"
 }

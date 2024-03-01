@@ -1,16 +1,8 @@
 {
-  "calculate": "Calculer",
-  "settlementAmount": "Montant du règlement",
-  "withholdingTax": "La retenue d'impôt",
-  "carryoverAmount": "Montant reporté",
-  "totalAmoun": "Le montant total",
-  "notePay": "Si le montant du paiement est inférieur à 10 000 wons, il sera automatiquement reporté au mois suivant.",
-  "detailSettlement": "Relevé de règlement détaillé",
-  "taxReceipt": "Reçu de retenue à la source",
-  "statistics": "Statistiques",
-  "downloadDetailSettlement": "Téléchargez les détails détaillés du règlement",
-  "sendCode": "Envoyer le code",
-  "enterAuthCode": "Entrez le code de vérification",
-  "emailAuth": "Authentification par courriel",
-  "downloadCompleted": "Le téléchargement est terminé"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Nous devons collecter certaines informations nécessaires pour pouvoir vous proposer le choix le plus adapté.",
+  "i_understand": "Je comprends",
+  "choose_service": "Choisissez un service",
+  "enter_your_address": "Entrez votre adresse",
+  "how_to_use": "Comment utiliser?",
+  "arrived_after_30_mins": "Arrivé après 30 minutes"
 }

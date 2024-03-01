@@ -1,16 +1,8 @@
 {
-  "calculate": "Menghitung",
-  "settlementAmount": "Jumlah penyelesaian",
-  "withholdingTax": "Pemotongan pajak",
-  "carryoverAmount": "Jumlah sisa",
-  "totalAmoun": "Jumlah total",
-  "notePay": "Jika jumlah pembayaran kurang dari 10.000 won, maka otomatis ditransfer ke bulan berikutnya.",
-  "detailSettlement": "Pernyataan penyelesaian terperinci",
-  "taxReceipt": "Pemotongan tanda terima pajak",
-  "statistics": "Statistik",
-  "downloadDetailSettlement": "Unduh detail penyelesaian terperinci",
-  "sendCode": "Kirim kode",
-  "enterAuthCode": "Masukkan kode verifikasi",
-  "emailAuth": "Otentikasi Email",
-  "downloadCompleted": "Pengunduhan selesai"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Kami perlu mengumpulkan beberapa informasi yang diperlukan untuk dapat memberi Anda pilihan yang paling sesuai",
+  "i_understand": "Saya mengerti",
+  "choose_service": "Pilih layanan",
+  "enter_your_address": "Masukkan alamat Anda",
+  "how_to_use": "Cara Penggunaan?",
+  "arrived_after_30_mins": "Tiba setelah 30 menit"
 }

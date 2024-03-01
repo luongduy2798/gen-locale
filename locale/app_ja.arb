@@ -1,16 +1,8 @@
 {
-  "calculate": "決済",
-  "settlementAmount": "決済額",
-  "withholdingTax": "源泉税",
-  "carryoverAmount": "繰越額",
-  "totalAmoun": "総額",
-  "notePay": "支払額が10,000ウォン未満の場合、翌月に自動的に繰り越されます。",
-  "detailSettlement": "セブ精算内訳書",
-  "taxReceipt": "源泉徴収領収書",
-  "statistics": "統計",
-  "downloadDetailSettlement": "セブ精算履歴ダウン",
-  "sendCode": "コード転送",
-  "enterAuthCode": "認証コード入力",
-  "emailAuth": "電子メール認証",
-  "downloadCompleted": "ダウンロードが完了しました"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "最適な選択を提供できるよう、必要な情報を収集する必要があります",
+  "i_understand": "わかりました",
+  "choose_service": "サービスを選ぶ",
+  "enter_your_address": "住所を入力してください",
+  "how_to_use": "使い方？",
+  "arrived_after_30_mins": "30分後に到着"
 }

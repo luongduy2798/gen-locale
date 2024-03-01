@@ -1,16 +1,8 @@
 {
-  "calculate": "Calculate",
-  "settlementAmount": "Settlement amount",
-  "withholdingTax": "Withholding tax",
-  "carryoverAmount": "Carryover amount",
-  "totalAmoun": "The total amount",
-  "notePay": "If the payment amount is less than 10,000 won, it will be automatically carried over to the next month.",
-  "detailSettlement": "Detailed settlement statement",
-  "taxReceipt": "Withholding tax receipt",
-  "statistics": "Statistics",
-  "downloadDetailSettlement": "Download detailed settlement details",
-  "sendCode": "Send code",
-  "enterAuthCode": "Enter verification code",
-  "emailAuth": "Email Authentication",
-  "downloadCompleted": "Download is complete"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "We need to collect some necessary information to be able to give you the most suitable choice",
+  "i_understand": "I understand",
+  "choose_service": "Choose service",
+  "enter_your_address": "Enter your address",
+  "how_to_use": "How to use?",
+  "arrived_after_30_mins": "Arrived after 30 mins"
 }

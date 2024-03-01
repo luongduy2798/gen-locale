@@ -1,18 +1,7 @@
-# init
-```
-npm install
-```
+## Hướng dẫn sử dụng
 
-```
-yarn install
-```
+Xem video hướng dẫn chi tiết dưới đây:
 
-# genertate locale
 
-```
-npm run convert
-```
+https://github.com/luongduy2798/gen-locale/assets/88995392/2d943ce8-8bb6-483c-91ea-ad847ed0791c
 
-```
-yarn run convert
-```

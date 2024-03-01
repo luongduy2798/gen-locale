@@ -1,16 +1,8 @@
 {
-  "calculate": "คำนวณ",
-  "settlementAmount": "จำนวนเงินที่ชำระ",
-  "withholdingTax": "ภาษีหัก ณ ที่จ่าย",
-  "carryoverAmount": "จำนวนเงินยกยอด",
-  "totalAmoun": "จำนวนเงินทั้งหมด",
-  "notePay": "หากจำนวนเงินที่ชำระน้อยกว่า 10,000 วอน ระบบจะยกยอดไปยังเดือนถัดไปโดยอัตโนมัติ",
-  "detailSettlement": "ใบแจ้งการชำระเงินโดยละเอียด",
-  "taxReceipt": "ใบเสร็จรับเงินภาษีหัก ณ ที่จ่าย",
-  "statistics": "สถิติ",
-  "downloadDetailSettlement": "ดาวน์โหลดรายละเอียดการชำระเงินโดยละเอียด",
-  "sendCode": "ส่งรหัส",
-  "enterAuthCode": "ระบุรหัสยืนยืน",
-  "emailAuth": "การตรวจสอบสิทธิ์อีเมล",
-  "downloadCompleted": "การดาวน์โหลดเสร็จสมบูรณ์"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "เราจำเป็นต้องรวบรวมข้อมูลที่จำเป็นเพื่อให้สามารถให้ทางเลือกที่เหมาะสมที่สุดแก่คุณได้",
+  "i_understand": "ฉันเข้าใจ",
+  "choose_service": "เลือกบริการ",
+  "enter_your_address": "ป้อนที่อยู่ของคุณ",
+  "how_to_use": "วิธีใช้?",
+  "arrived_after_30_mins": "มาถึงหลังจาก 30 นาที"
 }

@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "Nous vous informerons des résultats via l'application push et par SMS.",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "Une fois les informations et les photos du permis de conduire vérifiées et la vérification de l'assurance terminée.",
-  "a_review_period_of_12_days_is_required_after_application": "Une période d'examen de 1 à 2 jours est requise après la demande.",
-  "registration_application_has_been_received": "La demande d'inscription a été reçue"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Nous devons collecter certaines informations nécessaires pour pouvoir vous proposer le choix le plus adapté.",
+  "i_understand": "Je comprends",
+  "choose_service": "Choisissez un service",
+  "enter_your_address": "Entrez votre adresse",
+  "how_to_use": "Comment utiliser?",
+  "arrived_after_30_mins": "Arrivé après 30 minutes"
 }

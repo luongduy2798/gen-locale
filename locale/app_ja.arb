@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "結果はアプリプッシュとテキストメッセージでお知らせします。",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "運転免許証の情報と写真を確認し、保険の審査が完了します。",
-  "a_review_period_of_12_days_is_required_after_application": "申請後、1～2日の審査期間が必要となります。",
-  "registration_application_has_been_received": "登録申請を受け付けました"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "最適な選択を提供できるよう、必要な情報を収集する必要があります",
+  "i_understand": "わかりました",
+  "choose_service": "サービスを選ぶ",
+  "enter_your_address": "住所を入力してください",
+  "how_to_use": "使い方？",
+  "arrived_after_30_mins": "30分後に到着"
 }

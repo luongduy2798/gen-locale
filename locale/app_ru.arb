@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "Мы уведомим вас о результатах посредством push-уведомлений в приложении и текстового сообщения.",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "После проверки информации о водительских правах и фотографий и завершения проверки страховки.",
-  "a_review_period_of_12_days_is_required_after_application": "После подачи заявления требуется период рассмотрения в течение 1-2 дней.",
-  "registration_application_has_been_received": "Заявка на регистрацию получена"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Нам необходимо собрать некоторую необходимую информацию, чтобы предоставить вам наиболее подходящий выбор.",
+  "i_understand": "Я понимаю",
+  "choose_service": "Выберите услугу",
+  "enter_your_address": "Введите свой адрес",
+  "how_to_use": "Как использовать?",
+  "arrived_after_30_mins": "Прибыл через 30 минут"
 }

@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "Sonuçları size uygulama push ve kısa mesaj yoluyla bildireceğiz.",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "Ehliyet bilgileri ve fotoğrafları doğrulandıktan sonra sigorta taraması tamamlanır.",
-  "a_review_period_of_12_days_is_required_after_application": "Başvuru sonrasında 1-2 günlük bir inceleme süresi gerekmektedir.",
-  "registration_application_has_been_received": "Kayıt başvurusu alındı"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Size en uygun seçeneği sunabilmek için gerekli bazı bilgileri toplamamız gerekiyor",
+  "i_understand": "Anladım",
+  "choose_service": "Hizmet seçin",
+  "enter_your_address": "Adresinizi girin",
+  "how_to_use": "Nasıl kullanılır?",
+  "arrived_after_30_mins": "30 dakika sonra geldi"
 }

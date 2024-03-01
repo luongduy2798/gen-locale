@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "سنقوم بإعلامك بالنتائج عبر التطبيق والرسائل النصية.",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "بمجرد التحقق من معلومات وصور رخصة القيادة وإكمال فحص التأمين.",
-  "a_review_period_of_12_days_is_required_after_application": "مطلوب فترة مراجعة من 1-2 أيام بعد تقديم الطلب.",
-  "registration_application_has_been_received": "تم استلام طلب التسجيل"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "نحن بحاجة إلى جمع بعض المعلومات الضرورية حتى نتمكن من إعطائك الخيار الأنسب",
+  "i_understand": "أفهم",
+  "choose_service": "اختر الخدمة",
+  "enter_your_address": "أدخل عنوانك",
+  "how_to_use": "كيف تستعمل؟",
+  "arrived_after_30_mins": "وصل بعد 30 دقيقة"
 }

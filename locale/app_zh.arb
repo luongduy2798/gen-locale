@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "我们将通过应用程序推送和短信通知您结果。",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "验证驾驶执照信息和照片并完成保险筛查后。",
-  "a_review_period_of_12_days_is_required_after_application": "申请后需要1-2天的审核期。",
-  "registration_application_has_been_received": "注册申请已收到"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "我们需要收集一些必要的信息以便能够给您最合适的选择",
+  "i_understand": "我明白",
+  "choose_service": "选择服务",
+  "enter_your_address": "输入您的地址",
+  "how_to_use": "如何使用？",
+  "arrived_after_30_mins": "30分钟后到达"
 }

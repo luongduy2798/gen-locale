@@ -1,6 +1,8 @@
 export const TEXT = `
-Registration application has been received
-A review period of 1-2 days is required after application.
-Once driver's license information and photos are verified and insurance screening is completed.
-We will notify you of the results via app push and text message.
+How to use?
+We need to collect some necessary information to be able to give you the most suitable choice
+Enter your address
+Choose service
+Arrived after 30 mins
+I understand
 `;

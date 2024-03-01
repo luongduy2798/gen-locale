@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "Aabisuhan ka namin tungkol sa mga resulta sa pamamagitan ng app push at text message.",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "Kapag na-verify na ang impormasyon ng lisensya sa pagmamaneho at mga larawan at nakumpleto ang screening ng insurance.",
-  "a_review_period_of_12_days_is_required_after_application": "Ang isang panahon ng pagsusuri ng 1-2 araw ay kinakailangan pagkatapos ng aplikasyon.",
-  "registration_application_has_been_received": "Natanggap ang aplikasyon sa pagpaparehistro"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Kailangan naming mangolekta ng ilang kinakailangang impormasyon upang maibigay sa iyo ang pinakaangkop na pagpipilian",
+  "i_understand": "Naiintindihan ko",
+  "choose_service": "Pumili ng serbisyo",
+  "enter_your_address": "Ilagay ang iyong address",
+  "how_to_use": "Paano gamitin?",
+  "arrived_after_30_mins": "Dumating pagkatapos ng 30 min"
 }

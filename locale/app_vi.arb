@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "Chúng tôi sẽ thông báo cho bạn về kết quả thông qua tin nhắn văn bản và tin nhắn văn bản.",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "Sau khi thông tin và ảnh giấy phép lái xe được xác minh và quá trình sàng lọc bảo hiểm hoàn tất.",
-  "a_review_period_of_12_days_is_required_after_application": "Cần có thời gian xem xét 1-2 ngày sau khi nộp đơn.",
-  "registration_application_has_been_received": "Đã nhận được đơn đăng ký"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Chúng tôi cần thu thập một số thông tin cần thiết để có thể đưa ra cho bạn sự lựa chọn phù hợp nhất",
+  "i_understand": "Tôi hiểu",
+  "choose_service": "Chọn dịch vụ",
+  "enter_your_address": "Nhập địa chỉ của bạn",
+  "how_to_use": "Làm thế nào để sử dụng?",
+  "arrived_after_30_mins": "Đến sau 30 phút"
 }

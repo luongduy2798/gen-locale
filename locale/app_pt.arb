@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "Iremos notificá-lo sobre os resultados por meio de envio de aplicativo e mensagem de texto.",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "Assim que as informações e fotos da carteira de motorista forem verificadas e a triagem do seguro for concluída.",
-  "a_review_period_of_12_days_is_required_after_application": "É necessário um período de revisão de 1 a 2 dias após a aplicação.",
-  "registration_application_has_been_received": "O pedido de registro foi recebido"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "Precisamos coletar algumas informações necessárias para podermos lhe dar a escolha mais adequada",
+  "i_understand": "Eu entendo",
+  "choose_service": "Escolha o serviço",
+  "enter_your_address": "Digite seu endereço",
+  "how_to_use": "Como usar?",
+  "arrived_after_30_mins": "Chegou depois de 30 minutos"
 }

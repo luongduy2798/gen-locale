@@ -1,6 +1,8 @@
 {
-  "we_will_notify_you_of_the_results_via_app_push_and_text_message": "เราจะแจ้งให้คุณทราบผลลัพธ์ผ่านการพุชของแอพและข้อความ",
-  "once_drivers_license_information_and_photos_are_verified_and_insurance_screening_is_completed": "เมื่อข้อมูลใบขับขี่และรูปถ่ายได้รับการตรวจสอบและคัดกรองประกันภัยเรียบร้อยแล้ว",
-  "a_review_period_of_12_days_is_required_after_application": "ต้องมีระยะเวลาการตรวจสอบ 1-2 วันหลังจากการสมัคร",
-  "registration_application_has_been_received": "ได้รับใบสมัครลงทะเบียนแล้ว"
+  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "เราจำเป็นต้องรวบรวมข้อมูลที่จำเป็นเพื่อให้สามารถให้ทางเลือกที่เหมาะสมที่สุดแก่คุณได้",
+  "i_understand": "ฉันเข้าใจ",
+  "choose_service": "เลือกบริการ",
+  "enter_your_address": "ป้อนที่อยู่ของคุณ",
+  "how_to_use": "วิธีใช้?",
+  "arrived_after_30_mins": "มาถึงหลังจาก 30 นาที"
 }

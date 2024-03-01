@@ -64,5 +64,9 @@
   "loginPhoneNumber": "Nomor telepon",
   "rememberMe": "Ingat saya",
   "loginFirstTextRegister": "Pertama kali mengunjungi HealerGo?",
-  "loginInvalidPhoneNumber": "Nomor telepon tidak valid"
+  "loginInvalidPhoneNumber": "Nomor telepon tidak valid",
+  "sign_up": "Mendaftar",
+  "you_have_a_account_": "Anda punya akun?",
+  "enter_the_information_to_create_an_account": "Masukkan informasi untuk membuat akun",
+  "sign_in": "Masuk"
 }

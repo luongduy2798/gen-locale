@@ -64,5 +64,9 @@
   "loginPhoneNumber": "Номер телефона",
   "rememberMe": "Запомнить меня",
   "loginFirstTextRegister": "Впервые посещаете HealerGo?",
-  "loginInvalidPhoneNumber": "Неправильный номер телефона"
+  "loginInvalidPhoneNumber": "Неправильный номер телефона",
+  "sign_up": "Melden Sie sich an",
+  "you_have_a_account_": "Sie haben ein Konto?",
+  "enter_the_information_to_create_an_account": "Geben Sie die Informationen ein, um ein Konto zu erstellen",
+  "sign_in": "Anmelden"
 }

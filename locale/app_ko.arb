@@ -64,5 +64,9 @@
   "loginPhoneNumber": "전화 번호",
   "rememberMe": "날 기억해",
   "loginFirstTextRegister": "힐러고를 처음 방문하시나요?",
-  "loginInvalidPhoneNumber": "유효하지 않은 전화 번호"
+  "loginInvalidPhoneNumber": "유효하지 않은 전화 번호",
+  "sign_up": "اشتراك",
+  "you_have_a_account_": "لديك حساب؟",
+  "enter_the_information_to_create_an_account": "أدخل المعلومات لإنشاء حساب",
+  "sign_in": "تسجيل الدخول"
 }

@@ -64,5 +64,9 @@
   "loginPhoneNumber": "Phone Number",
   "rememberMe": "Remember me",
   "loginFirstTextRegister": "First time visiting HealerGo?",
-  "loginInvalidPhoneNumber": "Invalid phone number"
+  "loginInvalidPhoneNumber": "Invalid phone number",
+  "sign_up": "Sign Up",
+  "you_have_a_account_": "You have a account? ",
+  "enter_the_information_to_create_an_account": "Enter the information to create an account",
+  "sign_in": "Sign In"
 }

@@ -64,5 +64,9 @@
   "loginPhoneNumber": "Số điện thoại",
   "rememberMe": "Nhớ tôi",
   "loginFirstTextRegister": "Lần đầu tiên ghé thăm HealerGo?",
-  "loginInvalidPhoneNumber": "Số điện thoại không hợp lệ"
+  "loginInvalidPhoneNumber": "Số điện thoại không hợp lệ",
+  "sign_up": "Đăng ký",
+  "you_have_a_account_": "Bạn có tài khoản?",
+  "enter_the_information_to_create_an_account": "Nhập thông tin để tạo tài khoản",
+  "sign_in": "Đăng nhập"
 }

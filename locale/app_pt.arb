@@ -64,5 +64,9 @@
   "loginPhoneNumber": "Número de telefone",
   "rememberMe": "Lembre de mim",
   "loginFirstTextRegister": "Primeira vez visitando o HealerGo?",
-  "loginInvalidPhoneNumber": "Número de telefone inválido"
+  "loginInvalidPhoneNumber": "Número de telefone inválido",
+  "sign_up": "ลงชื่อ",
+  "you_have_a_account_": "คุณมีบัญชีอยู่แล้ว?",
+  "enter_the_information_to_create_an_account": "ป้อนข้อมูลเพื่อสร้างบัญชี",
+  "sign_in": "เข้าสู่ระบบ"
 }

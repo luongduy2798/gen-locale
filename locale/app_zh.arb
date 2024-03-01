@@ -64,5 +64,9 @@
   "loginPhoneNumber": "电话号码",
   "rememberMe": "记住账号",
   "loginFirstTextRegister": "第一次访问 HealerGo？",
-  "loginInvalidPhoneNumber": "无效的电话号码"
+  "loginInvalidPhoneNumber": "无效的电话号码",
+  "sign_up": "报名",
+  "you_have_a_account_": "你有账户吗？",
+  "enter_the_information_to_create_an_account": "输入信息以创建帐户",
+  "sign_in": "登入"
 }

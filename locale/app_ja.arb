@@ -64,5 +64,9 @@
   "loginPhoneNumber": "電話番号",
   "rememberMe": "私を覚えてますか",
   "loginFirstTextRegister": "HealerGo を初めて訪れますか?",
-  "loginInvalidPhoneNumber": "無効な電話番号"
+  "loginInvalidPhoneNumber": "無効な電話番号",
+  "sign_up": "اشتراك",
+  "you_have_a_account_": "لديك حساب؟",
+  "enter_the_information_to_create_an_account": "أدخل المعلومات لإنشاء حساب",
+  "sign_in": "تسجيل الدخول"
 }

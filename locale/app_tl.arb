@@ -64,5 +64,9 @@
   "loginPhoneNumber": "Numero ng telepono",
   "rememberMe": "Tandaan mo ako",
   "loginFirstTextRegister": "Unang beses na bumisita sa HealerGo?",
-  "loginInvalidPhoneNumber": "Di-wastong numero ng telepono"
+  "loginInvalidPhoneNumber": "Di-wastong numero ng telepono",
+  "sign_up": "Mag-sign Up",
+  "you_have_a_account_": "May account ka?",
+  "enter_the_information_to_create_an_account": "Ipasok ang impormasyon upang lumikha ng isang account",
+  "sign_in": "Mag-sign In"
 }

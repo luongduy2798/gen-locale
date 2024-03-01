@@ -20,8 +20,9 @@ const lang = [
   "tr",
   "vi",
   "zh-cn",
-  "zh-tw",
 ];
+  // "zh-tw",
+
 const service = new Translate({
   projectId: "myhome-e4c53",
   credentials: serviceAccount.default,
@@ -35,7 +36,7 @@ const isGenForFlutter = true;
 const getFileNameGen = (lang) => {
   if (isGenForFlutter) {
     if (lang === "zh-cn") return `app_zh.arb`;
-    if (lang === "zh-tw") return `app_tw.arb`;
+    // if (lang === "zh-tw") return `app_tw.arb`;
     return `app_${lang}.arb`;
   }
   return `${lang}.json`;
@@ -66,17 +67,18 @@ const genLocale = async (lang) => {
       listTextTrans[index]?.charAt(0).toUpperCase() +
       listTextTrans[index]?.slice(1);
   }
-  fs.readFile(`locale/${getFileNameGen(lang)}`, function (err, data) {
-    var aaa=data.toString().replace("{","").replace("}","");
-    var bbb=localeJson.toString().replace("{","").replace("}","");
-    // console.log(aaa);
-    var obj = Object.assign(data, localeJson);
-    // console.log(obj.toString());
+  var pathLocal='/Volumes/coi-ssd/Github/GreenApp/healergo-mobile/lib/l10n' //path your l10n
+  // var pathLocal='locale'
+  fs.readFile(`${pathLocal}/${getFileNameGen(lang)}`, function (err, data) {
+    console.log(`${getFileNameGen(lang)}===> ${data}`)
+    const json = JSON.parse(data);
+    var obj = {...json,...localeJson};
+    // console.log(JSON.stringify(obj, null, 2));
 
 
     fs.writeFile(
-    `locale/${getFileNameGen(lang)}`,
-    obj.toString(),
+    `${pathLocal}/${getFileNameGen(lang)}`,
+    JSON.stringify(obj, null, 2),
     (err) => {}
     );
   });

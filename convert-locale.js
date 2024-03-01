@@ -1,7 +1,7 @@
-import localeJson from "./file-init/locale.json" assert { type: "json" };
+import localeJson from "./file-init/locale.json" ;
 import fs from "fs";
 import { Translate } from "@google-cloud/translate/build/src/v2/index.js";
-import * as serviceAccount from "./service-account.json" assert { type: "json" };
+import * as serviceAccount from "./service-account.json";
 
 const TEXT_KEY = "*ANHDUYDEPTRAIVKL*";
 const lang = [
@@ -66,11 +66,26 @@ const genLocale = async (lang) => {
       listTextTrans[index]?.charAt(0).toUpperCase() +
       listTextTrans[index]?.slice(1);
   }
-  fs.writeFile(
+  fs.readFile(`locale/${getFileNameGen(lang)}`, function (err, data) {
+    var aaa=data.toString().replace("{","").replace("}","");
+    var bbb=localeJson.toString().replace("{","").replace("}","");
+    // console.log(aaa);
+    var obj = Object.assign(data, localeJson);
+    // console.log(obj.toString());
+
+
+    fs.writeFile(
     `locale/${getFileNameGen(lang)}`,
-    JSON.stringify(localeJson, null, 2),
+    obj.toString(),
     (err) => {}
-  );
+    );
+  });
+
+  // fs.writeFile(
+  //   `locale/${getFileNameGen(lang)}`,
+  //   JSON.stringify(localeJson, null, 2),
+  //   (err) => {}
+  // );
 };
 
 for (let index = 0; index < lang.length; index++) {

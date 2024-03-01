@@ -1,7 +1,7 @@
 import { TEXT } from "./file-init/text.js";
 import fs from "fs";
 import { Translate } from "@google-cloud/translate/build/src/v2/index.js";
-import * as serviceAccount from "./service-account.json" assert { type: "json" };
+import * as serviceAccount from "./service-account.json" ;
 const LANG_KEY = "en"; // chọn ngôn ngữ của key, nếu ko muốn thì bỏ rống ""
 const isKeyLowerCase = true; // nếu muốn viết thường key và cách bởi dấu "_" và bỏ hết kí tự đặc biệt
 const isGenForFlutter = true;

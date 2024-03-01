@@ -1,8 +1,6 @@
 {
-  "we_need_to_collect_some_necessary_information_to_be_able_to_give_you_the_most_suitable_choice": "We need to collect some necessary information to be able to give you the most suitable choice",
-  "i_understand": "I understand",
-  "choose_service": "Choose service",
-  "enter_your_address": "Enter your address",
-  "how_to_use": "How to use?",
-  "arrived_after_30_mins": "Arrived after 30 mins"
+  "sign_up": "Sign Up",
+  "you_have_a_account_": "You have a account? ",
+  "enter_the_information_to_create_an_account": "Enter the information to create an account",
+  "sign_in": "Sign In"
 }

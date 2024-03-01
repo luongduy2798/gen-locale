@@ -1,7 +1,7 @@
-import localeJson from "./file-init/locale.json" assert { type: "json" };
+import localeJson from "./file-init/locale.json" ;
 import fs from "fs";
 import { Translate } from "@google-cloud/translate/build/src/v2/index.js";
-import * as serviceAccount from "./service-account.json" assert { type: "json" };
+import * as serviceAccount from "./service-account.json";
 
 const TEXT_KEY = "*ANHDUYDEPTRAIVKL*";
 const lang = [
@@ -20,8 +20,9 @@ const lang = [
   "tr",
   "vi",
   "zh-cn",
-  "zh-tw",
 ];
+  // "zh-tw",
+
 const service = new Translate({
   projectId: "myhome-e4c53",
   credentials: serviceAccount.default,
@@ -35,7 +36,7 @@ const isGenForFlutter = true;
 const getFileNameGen = (lang) => {
   if (isGenForFlutter) {
     if (lang === "zh-cn") return `app_zh.arb`;
-    if (lang === "zh-tw") return `app_tw.arb`;
+    // if (lang === "zh-tw") return `app_tw.arb`;
     return `app_${lang}.arb`;
   }
   return `${lang}.json`;
@@ -66,11 +67,27 @@ const genLocale = async (lang) => {
       listTextTrans[index]?.charAt(0).toUpperCase() +
       listTextTrans[index]?.slice(1);
   }
-  fs.writeFile(
-    `locale/${getFileNameGen(lang)}`,
-    JSON.stringify(localeJson, null, 2),
+  var pathLocal='/Volumes/coi-ssd/Github/GreenApp/healergo-mobile/lib/l10n' //path your l10n
+  // var pathLocal='locale'
+  fs.readFile(`${pathLocal}/${getFileNameGen(lang)}`, function (err, data) {
+    console.log(`${getFileNameGen(lang)}===> ${data}`)
+    const json = JSON.parse(data);
+    var obj = {...json,...localeJson};
+    // console.log(JSON.stringify(obj, null, 2));
+
+
+    fs.writeFile(
+    `${pathLocal}/${getFileNameGen(lang)}`,
+    JSON.stringify(obj, null, 2),
     (err) => {}
-  );
+    );
+  });
+
+  // fs.writeFile(
+  //   `locale/${getFileNameGen(lang)}`,
+  //   JSON.stringify(localeJson, null, 2),
+  //   (err) => {}
+  // );
 };
 
 for (let index = 0; index < lang.length; index++) {

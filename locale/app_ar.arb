@@ -4,5 +4,15 @@
   "choose_service": "اختر الخدمة",
   "enter_your_address": "أدخل عنوانك",
   "how_to_use": "كيف تستعمل؟",
-  "arrived_after_30_mins": "وصل بعد 30 دقيقة"
+  "arrived_after_30_mins": "وصل بعد 30 دقيقة",
+  "complete_the_order": "أكمل الطلب",
+  "time": "وقت",
+  "thank_you_for_your_cooperation": "شكرا لتعاونكم!",
+  "customer": "عميل",
+  "cash_payment": "دفع نقدا",
+  "masseuse": "مدلكة",
+  "type": "يكتب",
+  "note": "ملحوظة",
+  "finish": "ينهي",
+  "address": "عنوان"
 }

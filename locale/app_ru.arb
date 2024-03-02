@@ -4,5 +4,15 @@
   "choose_service": "Выберите услугу",
   "enter_your_address": "Введите свой адрес",
   "how_to_use": "Как использовать?",
-  "arrived_after_30_mins": "Прибыл через 30 минут"
+  "arrived_after_30_mins": "Прибыл через 30 минут",
+  "complete_the_order": "Выполнить заказ",
+  "time": "Время",
+  "thank_you_for_your_cooperation": "Спасибо за ваше сотрудничество!",
+  "customer": "Клиент",
+  "cash_payment": "Наличный расчет",
+  "masseuse": "Массажистка",
+  "type": "Тип",
+  "note": "Примечание",
+  "finish": "Заканчивать",
+  "address": "Адрес"
 }

@@ -4,5 +4,15 @@
   "choose_service": "Pumili ng serbisyo",
   "enter_your_address": "Ilagay ang iyong address",
   "how_to_use": "Paano gamitin?",
-  "arrived_after_30_mins": "Dumating pagkatapos ng 30 min"
+  "arrived_after_30_mins": "Dumating pagkatapos ng 30 min",
+  "complete_the_order": "Kumpletuhin ang order",
+  "time": "Oras",
+  "thank_you_for_your_cooperation": "Salamat sa iyong pakikiisa!",
+  "customer": "Customer",
+  "cash_payment": "Pagbabayad ng cash",
+  "masseuse": "Masahista",
+  "type": "Uri",
+  "note": "Tandaan",
+  "finish": "Tapusin",
+  "address": "Address"
 }

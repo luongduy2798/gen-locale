@@ -4,5 +4,15 @@
   "choose_service": "Wählen Sie Service",
   "enter_your_address": "Geben Sie Ihre Adresse ein",
   "how_to_use": "Wie benutzt man?",
-  "arrived_after_30_mins": "Nach 30 Minuten angekommen"
+  "arrived_after_30_mins": "Nach 30 Minuten angekommen",
+  "complete_the_order": "Schließen Sie die Bestellung ab",
+  "time": "Zeit",
+  "thank_you_for_your_cooperation": "Danke für Ihre Kooperation!",
+  "customer": "Kunde",
+  "cash_payment": "Barzahlung",
+  "masseuse": "Masseuse",
+  "type": "Typ",
+  "note": "Notiz",
+  "finish": "Beenden",
+  "address": "Adresse"
 }

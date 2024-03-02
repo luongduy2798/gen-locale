@@ -4,5 +4,15 @@
   "choose_service": "서비스 선택",
   "enter_your_address": "주소를 입력하세요",
   "how_to_use": "사용하는 방법?",
-  "arrived_after_30_mins": "30분 뒤에 도착함"
+  "arrived_after_30_mins": "30분 뒤에 도착함",
+  "complete_the_order": "주문을 완료하세요",
+  "time": "시간",
+  "thank_you_for_your_cooperation": "도와 주셔서 감사합니다!",
+  "customer": "고객",
+  "cash_payment": "현금 결제",
+  "masseuse": "안마사",
+  "type": "유형",
+  "note": "메모",
+  "finish": "마치다",
+  "address": "주소"
 }

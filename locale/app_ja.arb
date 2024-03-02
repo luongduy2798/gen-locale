@@ -4,5 +4,15 @@
   "choose_service": "サービスを選ぶ",
   "enter_your_address": "住所を入力してください",
   "how_to_use": "使い方？",
-  "arrived_after_30_mins": "30分後に到着"
+  "arrived_after_30_mins": "30分後に到着",
+  "complete_the_order": "注文を完了する",
+  "time": "時間",
+  "thank_you_for_your_cooperation": "ご協力ありがとうございます！",
+  "customer": "お客様",
+  "cash_payment": "現金払い",
+  "masseuse": "マッサージ師",
+  "type": "タイプ",
+  "note": "注記",
+  "finish": "仕上げる",
+  "address": "住所"
 }

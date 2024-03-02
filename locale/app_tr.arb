@@ -4,5 +4,15 @@
   "choose_service": "Hizmet seçin",
   "enter_your_address": "Adresinizi girin",
   "how_to_use": "Nasıl kullanılır?",
-  "arrived_after_30_mins": "30 dakika sonra geldi"
+  "arrived_after_30_mins": "30 dakika sonra geldi",
+  "complete_the_order": "Siparişi tamamla",
+  "time": "Zaman",
+  "thank_you_for_your_cooperation": "İş birliğin için teşekkürler!",
+  "customer": "Müşteri",
+  "cash_payment": "Nakit ödeme",
+  "masseuse": "Masöz",
+  "type": "Tip",
+  "note": "Not",
+  "finish": "Sona ermek",
+  "address": "Adres"
 }

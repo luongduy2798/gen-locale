@@ -3,7 +3,16 @@ import fs from "fs";
 import { Translate } from "@google-cloud/translate/build/src/v2/index.js";
 import * as serviceAccount from "./service-account.json" assert { type: "json" };
 
+const isGenForFlutter = true; // nếu muốn gen cho flutter (nếu muốn gen cho js thì đổi thành false)
 const TEXT_KEY = "*ANHDUYDEPTRAIVKL*";
+const PATH_SAVE = "/Users/luongnhatduy/Desktop/healergo-mobile/lib/l10n";
+// const PATH_SAVE = "locale"; // thư mục locale của project này
+const isInsert = true; // chèn data dịch mới vào file có sẵn (nếu muốn thay thế thì đổi thành false)
+const LENGTH =
+  Object.values(localeJson).length > 200
+    ? 200
+    : Object.values(localeJson).length; // dịch 200 field 1 lần, nếu lỗi thì giảm giá trị này đi cho đến khi thoả mãn
+
 const lang = [
   "ar",
   "de",
@@ -26,11 +35,6 @@ const service = new Translate({
   projectId: "myhome-e4c53",
   credentials: serviceAccount.default,
 });
-const LENGTH =
-  Object.values(localeJson).length > 200
-    ? 200
-    : Object.values(localeJson).length; // dịch 200 field 1 lần, nếu lỗi thì giảm giá trị này đi cho đến khi thoả mãn
-const isGenForFlutter = true;
 
 const getFileNameGen = (lang) => {
   if (isGenForFlutter) {
@@ -66,11 +70,32 @@ const genLocale = async (lang) => {
       listTextTrans[index]?.charAt(0).toUpperCase() +
       listTextTrans[index]?.slice(1);
   }
-  fs.writeFile(
-    `locale/${getFileNameGen(lang)}`,
-    JSON.stringify(localeJson, null, 2),
-    (err) => {}
-  );
+
+  if (isInsert) {
+    fs.readFile(
+      `${PATH_SAVE}/${getFileNameGen(lang)}`,
+      "utf-8",
+      (err, data) => {
+        try {
+          const jsonDataRoot = JSON.parse(data || "{}");
+          var obj = { ...jsonDataRoot, ...localeJson };
+          fs.writeFile(
+            `${PATH_SAVE}/${getFileNameGen(lang)}`,
+            JSON.stringify(obj, null, 2),
+            (err) => {}
+          );
+        } catch (error) {
+          console.log(getFileNameGen(lang), error);
+        }
+      }
+    );
+  } else {
+    fs.writeFile(
+      `${PATH_SAVE}/${getFileNameGen(lang)}`,
+      JSON.stringify(localeJson, null, 2),
+      (err) => {}
+    );
+  }
 };
 
 for (let index = 0; index < lang.length; index++) {

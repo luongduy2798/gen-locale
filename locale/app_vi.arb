@@ -68,5 +68,22 @@
   "sign_up": "Đăng ký",
   "you_have_a_account_": "Bạn có tài khoản?",
   "enter_the_information_to_create_an_account": "Nhập thông tin để tạo tài khoản",
-  "sign_in": "Đăng nhập"
+  "sign_in": "Đăng nhập",
+  "i_have_an_emergency": "Tôi có chuyện khẩn cấp",
+  "fake_masseuse": "Nhân viên mát xa giả",
+  "i_cannot_use_the_service_at_this_time": "Tôi không thể sử dụng dịch vụ vào lúc này",
+  "there_are_signs_of_fraud": "Có dấu hiệu lừa đảo",
+  "confirm": "Xác nhận",
+  "cancel_booking": "Hủy đặt chỗ",
+  "what_is_your_reason_for_canceling": "Lý do hủy bỏ của bạn là gì?",
+  "there_was_confusion_and_a_reset_was_needed": "Có sự nhầm lẫn và cần phải thiết lập lại",
+  "contains_pornographic_content": "Chứa nội dung khiêu dâm",
+  "blackmail": "Tống tiền",
+  "no_respect_for_customers": "Không tôn trọng khách hàng",
+  "other_reason": "Lý do khác,",
+  "attach_a_report": "Đính kèm báo cáo",
+  "fake_user": "Người dùng giả mạo",
+  "canceled_successfully": "Đã hủy thành công",
+  "cancel_order": "Hủy đơn hàng",
+  "select_cancellation_reason": "Chọn lý do hủy"
 }

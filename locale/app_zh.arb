@@ -68,5 +68,22 @@
   "sign_up": "报名",
   "you_have_a_account_": "你有账户吗？",
   "enter_the_information_to_create_an_account": "输入信息以创建帐户",
-  "sign_in": "登入"
+  "sign_in": "登入",
+  "i_have_an_emergency": "我有一个紧急情况",
+  "fake_masseuse": "假按摩师",
+  "i_cannot_use_the_service_at_this_time": "我目前无法使用该服务",
+  "there_are_signs_of_fraud": "有欺诈迹象",
+  "confirm": "确认",
+  "cancel_booking": "取消预订",
+  "what_is_your_reason_for_canceling": "您取消的原因是什么？",
+  "there_was_confusion_and_a_reset_was_needed": "存在混乱，需要重新设置",
+  "contains_pornographic_content": "含有色情内容",
+  "blackmail": "勒索",
+  "no_respect_for_customers": "不尊重顾客",
+  "other_reason": "其他原因，",
+  "attach_a_report": "附上报告",
+  "fake_user": "假用户",
+  "canceled_successfully": "取消成功",
+  "cancel_order": "取消订单",
+  "select_cancellation_reason": "选择取消原因"
 }

@@ -68,5 +68,22 @@
   "sign_up": "Sign Up",
   "you_have_a_account_": "You have a account? ",
   "enter_the_information_to_create_an_account": "Enter the information to create an account",
-  "sign_in": "Sign In"
+  "sign_in": "Sign In",
+  "i_have_an_emergency": "I have an emergency",
+  "fake_masseuse": "Fake masseuse",
+  "i_cannot_use_the_service_at_this_time": "I cannot use the service at this time",
+  "there_are_signs_of_fraud": "There are signs of fraud",
+  "confirm": "Confirm",
+  "cancel_booking": "Cancel Booking",
+  "what_is_your_reason_for_canceling": "What is your reason for canceling?",
+  "there_was_confusion_and_a_reset_was_needed": "There was confusion and a reset was needed",
+  "contains_pornographic_content": "Contains pornographic content",
+  "blackmail": "Blackmail",
+  "no_respect_for_customers": "No respect for customers",
+  "other_reason": "Other reason,",
+  "attach_a_report": "Attach a report",
+  "fake_user": "Fake user",
+  "canceled_successfully": "Canceled successfully",
+  "cancel_order": "Cancel Order",
+  "select_cancellation_reason": "Select cancellation reason"
 }

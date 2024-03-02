@@ -19,9 +19,9 @@ const lang = [
   "tl",
   "tr",
   "vi",
+  "zh-tw",
   "zh-cn",
 ];
-  // "zh-tw",
 
 const service = new Translate({
   projectId: "myhome-e4c53",
@@ -36,7 +36,7 @@ const isGenForFlutter = true;
 const getFileNameGen = (lang) => {
   if (isGenForFlutter) {
     if (lang === "zh-cn") return `app_zh.arb`;
-    // if (lang === "zh-tw") return `app_tw.arb`;
+    if (lang === "zh-tw") return `app_tw.arb`;
     return `app_${lang}.arb`;
   }
   return `${lang}.json`;
@@ -70,7 +70,7 @@ const genLocale = async (lang) => {
   var pathLocal='/Volumes/coi-ssd/Github/GreenApp/healergo-mobile/lib/l10n' //path your l10n
   // var pathLocal='locale'
   fs.readFile(`${pathLocal}/${getFileNameGen(lang)}`, function (err, data) {
-    console.log(`${getFileNameGen(lang)}===> ${data}`)
+    // console.log(`${getFileNameGen(lang)}===> ${data}`)
     const json = JSON.parse(data);
     var obj = {...json,...localeJson};
     // console.log(JSON.stringify(obj, null, 2));

@@ -68,5 +68,22 @@
   "sign_up": "Mendaftar",
   "you_have_a_account_": "Anda punya akun?",
   "enter_the_information_to_create_an_account": "Masukkan informasi untuk membuat akun",
-  "sign_in": "Masuk"
+  "sign_in": "Masuk",
+  "i_have_an_emergency": "Saya punya keadaan darurat",
+  "fake_masseuse": "Tukang pijat palsu",
+  "i_cannot_use_the_service_at_this_time": "Saya tidak dapat menggunakan layanan ini saat ini",
+  "there_are_signs_of_fraud": "Ada tanda-tanda penipuan",
+  "confirm": "Mengonfirmasi",
+  "cancel_booking": "Batalkan Pemesanan",
+  "what_is_your_reason_for_canceling": "Apa alasan Anda membatalkan?",
+  "there_was_confusion_and_a_reset_was_needed": "Terjadi kebingungan dan diperlukan pengaturan ulang",
+  "contains_pornographic_content": "Berisi konten pornografi",
+  "blackmail": "Pemerasan",
+  "no_respect_for_customers": "Tidak ada rasa hormat terhadap pelanggan",
+  "other_reason": "Alasan lain,",
+  "attach_a_report": "Lampirkan laporan",
+  "fake_user": "Pengguna palsu",
+  "canceled_successfully": "Berhasil dibatalkan",
+  "cancel_order": "Batalkan pesanan",
+  "select_cancellation_reason": "Pilih alasan pembatalan"
 }

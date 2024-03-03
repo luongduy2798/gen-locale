@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen": "node --experimental-json-modules gen-locale.js",
-    "convert": "node --experimental-json-modules convert-locale.js"
+    "convert": "node --experimental-json-modules convert-locale.js",
+    "convert merge": "node --experimental-json-modules convert-locale-merge.js"
   },
   "author": "",
   "license": "ISC",

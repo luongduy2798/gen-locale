@@ -67,12 +67,27 @@ const genLocale = async (lang) => {
       listTextTrans[index]?.charAt(0).toUpperCase() +
       listTextTrans[index]?.slice(1);
   }
-  
-  fs.writeFile(
-    `locale/${getFileNameGen(lang)}`,
-    JSON.stringify(localeJson, null, 2),
+  // var pathLocal='/Volumes/coi-ssd/Github/GreenApp/healergo-mobile/lib/l10n' //path your l10n
+  var pathLocal='locale'
+  fs.readFileSync(`${pathLocal}/${getFileNameGen(lang)}`, function (err, data) {
+    // console.log(`${getFileNameGen(lang)}===> ${data}`)
+    const json = JSON.parse(data);
+    var obj = {...json,...localeJson};
+    // console.log(JSON.stringify(obj, null, 2));
+
+
+    fs.writeFileSync(
+    `${pathLocal}/${getFileNameGen(lang)}`,
+    JSON.stringify(obj, null, 2),
     (err) => {}
-  );
+    );
+  });
+
+  // fs.writeFile(
+  //   `locale/${getFileNameGen(lang)}`,
+  //   JSON.stringify(localeJson, null, 2),
+  //   (err) => {}
+  // );
 };
 
 for (let index = 0; index < lang.length; index++) {

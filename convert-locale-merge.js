@@ -41,8 +41,11 @@ const getFileNameGen = (lang) => {
   }
   return `${lang}.json`;
 };
+var pathLocal='/Users/coi/Desktop/untitled folder 2/l10n'
+// var pathLocal=null //your path l10n
 
 const genLocale = async (lang) => {
+
   let textTrans = "";
   for (
     let index = 0;
@@ -64,12 +67,24 @@ const genLocale = async (lang) => {
   for (let index = 0; index < Object.keys(localeJson).length; index++) {
     const element = Object.keys(localeJson)[index];
     localeJson[`${element}`] =
-      listTextTrans[index]?.charAt(0).toUpperCase() +
+      // listTextTrans[index]?.charAt(0).toUpperCase() +
+      listTextTrans[index]?.charAt(0) +
       listTextTrans[index]?.slice(1);
   }
-  // var pathLocal='/Volumes/coi-ssd/Github/GreenApp/healergo-mobile/lib/l10n' //path your l10n
-  var pathLocal='locale'
-  fs.readFileSync(`${pathLocal}/${getFileNameGen(lang)}`, function (err, data) {
+  
+  if (!fs.existsSync(`${pathLocal}/${getFileNameGen(lang)}`)) {
+    fs.writeFileSync(
+      `${pathLocal}/${getFileNameGen(lang)}`,
+      JSON.stringify({}),
+      (err) => {}
+      );
+    console.log(`create file success : ${pathLocal}/${getFileNameGen(lang)}`);
+  }
+ 
+ 
+  console.log(`readFileSync ${pathLocal}/${getFileNameGen(lang)}`);
+  // var pathLocal='locale'
+  fs.readFile(`${pathLocal}/${getFileNameGen(lang)}`, function (err, data) {
     // console.log(`${getFileNameGen(lang)}===> ${data}`)
     const json = JSON.parse(data);
     var obj = {...json,...localeJson};
@@ -90,6 +105,14 @@ const genLocale = async (lang) => {
   // );
 };
 
+try {
+  if (!fs.existsSync(pathLocal)) {
+    fs.mkdirSync(pathLocal);
+    console.log(`create folder success : ${pathLocal}`);
+  }
+} catch (err) {
+  console.error(err);
+}
 for (let index = 0; index < lang.length; index++) {
   const element = lang[index];
   genLocale(element);

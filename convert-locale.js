@@ -67,6 +67,14 @@ const genLocale = async (lang) => {
       listTextTrans[index]?.charAt(0).toUpperCase() +
       listTextTrans[index]?.slice(1);
   }
+  const folderName = './locale';
+  try {
+    if (!fs.existsSync(folderName)) {
+      fs.mkdirSync(folderName);
+    }
+  } catch (err) {
+    console.error(err);
+  }
   
   fs.writeFile(
     `locale/${getFileNameGen(lang)}`,

@@ -93,7 +93,7 @@ const genLocale = async (lang) => {
   } else {
     fs.writeFile(
       `${PATH_SAVE}/${getFileNameGen(lang)}`,
-      JSON.stringify(localeJson, null, 2),
+      JSON.stringify(newLocaleJson, null, 2),
       (err) => {}
     );
   }

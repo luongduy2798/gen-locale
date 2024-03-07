@@ -41,7 +41,8 @@ const getFileNameGen = (lang) => {
   }
   return `${lang}.json`;
 };
-var pathLocal='/Users/coi/Desktop/untitled folder 2/l10n'
+// var pathLocal='/Volumes/coi-ssd/Github/GreenApp/healergo-mobile/lib/l10n'
+var pathLocal='/Volumes/coi-ssd/Github/GreenApp/keiser-music/keiser_music/lib/l10n'
 // var pathLocal=null //your path l10n
 
 const genLocale = async (lang) => {

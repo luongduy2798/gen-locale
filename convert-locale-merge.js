@@ -65,9 +65,10 @@ const genLocale = async (lang) => {
     textTrans += text + "\n";
   }
   const listTextTrans = textTrans.split("\n");
+  const newLocaleJson = {};
   for (let index = 0; index < Object.keys(localeJson).length; index++) {
     const element = Object.keys(localeJson)[index];
-    localeJson[`${element}`] =
+    newLocaleJson[`${element}`] =
       // listTextTrans[index]?.charAt(0).toUpperCase() +
       listTextTrans[index]?.charAt(0) +
       listTextTrans[index]?.slice(1);
@@ -88,7 +89,7 @@ const genLocale = async (lang) => {
   fs.readFile(`${pathLocal}/${getFileNameGen(lang)}`, function (err, data) {
     // console.log(`${getFileNameGen(lang)}===> ${data}`)
     const json = JSON.parse(data);
-    var obj = {...json,...localeJson};
+    var obj = {...json,...newLocaleJson};
     // console.log(JSON.stringify(obj, null, 2));
 
 

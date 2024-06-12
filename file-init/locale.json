@@ -1,19 +1,4 @@
 {
-  "use_of_music": "음악사용",
-  "lyrics": "작사",
-  "notification": "안내사항",
-  "free_service_can_only_regenerate_50": "무료서비스는 50%만 재생 가능합니다",
-  "check": "확인",
-  "release": "발매",
-  "i_have_confirmed_the_above": "위 내용을 확인했습니다.",
-  "current_song_is_played_3_times": "현재 곡이 3번 재생됩니다",
-  "current_song_is_played_once": "현재 곡이 1번 재생됩니다",
-  "you_must_certify_the_results_of_using_the_music_within_one_month_to_receive_final_usage_rights": "한달이내로 음원 사용 결과를 인증해야만, 최종적인 사용 권한이 발생합니다",
-  "fair_usage_fees_cannot_be_paid_to_the_creator": "제작자에게 정당한 사용료가 지급될수 없습니다.",
-  "_enter_the_url_of_the_content_used_or_offline_performance_area": "- 사용한 콘텐츠의 URL 입력 혹은 오프라인 공연 지역",
-  "failure_to_certify_the_results_of_use_constitutes_a_violation_of_terms_and_conditions_and_copyright_law": "사용한 결과를 인증하지 않으면, 약관 및 저작권법 위반에 해당하며,",
-  "current_song_is_played_twice": "현재 곡이 2번 재생됩니다",
-  "the_current_song_plays_infinitely": "현재 곡이 무한 재생됩니다",
-  "an_authorization_number_has_been_issued": "사용 승인 번호가 발급되었습니다.",
-  "current_song_is_played_4_times": "현재 곡이 4번 재생됩니다"
+  "lyrics": "가사",
+  "current_song_is_played_once": "현재 곡이 1번 재생됩니다"
 }

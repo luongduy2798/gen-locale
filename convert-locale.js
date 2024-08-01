@@ -5,9 +5,10 @@ import * as serviceAccount from "./service-account.json" assert { type: "json" }
 
 const isGenForFlutter = true; // nếu muốn gen cho flutter (nếu muốn gen cho js thì đổi thành false)
 const TEXT_KEY = "*ANHDUYDEPTRAIVKL*";
-const PATH_SAVE = "/Users/luongnhatduy/Desktop/healergo-mobile/lib/l10n";
+const PATH_SAVE = "/Users/luongnhatduy/Desktop/twa-pmf-mobile-flutter/lib/l10n";
 // const PATH_SAVE = "locale"; // thư mục locale của project này
 const isInsert = true; // chèn data dịch mới vào file có sẵn (nếu muốn thay thế thì đổi thành false)
+const isFirstCharUpperCase = false;
 const LENGTH =
   Object.values(localeJson).length > 200
     ? 200
@@ -67,9 +68,9 @@ const genLocale = async (lang) => {
   const newLocaleJson = {};
   for (let index = 0; index < Object.keys(localeJson).length; index++) {
     const element = Object.keys(localeJson)[index];
-    newLocaleJson[`${element}`] =
+    newLocaleJson[`${element}`] = isFirstCharUpperCase ?
       listTextTrans[index]?.charAt(0).toUpperCase() +
-      listTextTrans[index]?.slice(1);
+      listTextTrans[index]?.slice(1) : listTextTrans[index];
   }
 
   if (isInsert) {

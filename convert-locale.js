@@ -5,12 +5,12 @@ import * as serviceAccount from "./service-account.json" assert { type: "json" }
 
 // Configuration constants
 const CONFIG = {
-  IS_GEN_FOR_FLUTTER: false,
+  IS_GEN_FOR_FLUTTER: true,
   TEXT_KEY: "*ANHDUYDEPTRAIVKL*",
   PATH_SAVE: "locale",
-  IS_INSERT: true,
+  IS_INSERT: false,
   IS_FIRST_CHAR_UPPER_CASE: false,
-  BATCH_SIZE: Math.min(200, Object.values(localeJson).length),
+  BATCH_SIZE: Math.min(50, Object.values(localeJson).length),
   LANGUAGES: [
     "ar", "de", "en", "es", "fr", "id", "ja", "ko", 
     "pt", "ru", "th", "tl", "tr", "vi", "zh-cn", "zh-tw"
@@ -34,18 +34,19 @@ function getFileName(lang) {
 
 async function translateBatch(texts, lang) {
   const joinedText = texts
-    .join(CONFIG.TEXT_KEY)
-    .replaceAll("\n", " ")
-    .replaceAll(CONFIG.TEXT_KEY, "\n");
+    .map(text => text.replaceAll("\n", " "))
+    .join(CONFIG.TEXT_KEY);
   const [translation] = await service.translate(joinedText, lang);
-  return translation.split("\n");
+  return translation.split(CONFIG.TEXT_KEY).map(t => t.trim());
 }
 
 async function generateLocaleFile(lang) {
   const translations = [];
+  const keys = Object.keys(localeJson);
+  const values = Object.values(localeJson);
   
-  for (let i = 0; i < Math.ceil(Object.values(localeJson).length / CONFIG.BATCH_SIZE); i++) {
-    const batch = Object.values(localeJson).slice(
+  for (let i = 0; i < Math.ceil(values.length / CONFIG.BATCH_SIZE); i++) {
+    const batch = values.slice(
       i * CONFIG.BATCH_SIZE,
       (i + 1) * CONFIG.BATCH_SIZE
     );
@@ -53,7 +54,7 @@ async function generateLocaleFile(lang) {
     translations.push(...translated);
   }
 
-  const newLocale = Object.keys(localeJson).reduce((acc, key, index) => {
+  const newLocale = keys.reduce((acc, key, index) => {
     const value = translations[index];
     acc[key] = CONFIG.IS_FIRST_CHAR_UPPER_CASE ?
       value?.charAt(0).toUpperCase() + value?.slice(1) :

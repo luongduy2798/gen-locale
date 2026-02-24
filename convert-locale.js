@@ -6,11 +6,10 @@ import * as serviceAccount from "./service-account.json" assert { type: "json" }
 // Configuration constants
 const CONFIG = {
   IS_GEN_FOR_FLUTTER: true,
-  TEXT_KEY: "*ANHDUYDEPTRAIVKL*",
   PATH_SAVE: "locale",
   IS_INSERT: false,
   IS_FIRST_CHAR_UPPER_CASE: false,
-  BATCH_SIZE: Math.min(200, Object.values(localeJson).length),
+  BATCH_SIZE: 100,
   LANGUAGES: [
     "ar", "de", "en", "es", "fr", "id", "ja", "ko", 
     "pt", "ru", "th", "tl", "tr", "vi", "zh-cn", "zh-tw"
@@ -33,11 +32,9 @@ function getFileName(lang) {
 }
 
 async function translateBatch(texts, lang) {
-  const joinedText = texts
-    .map(text => text.replaceAll("\n", " "))
-    .join(CONFIG.TEXT_KEY);
-  const [translation] = await service.translate(joinedText, lang);
-  return translation.split(CONFIG.TEXT_KEY).map(t => t.trim());
+  const cleanTexts = texts.map(text => text.replaceAll("\n", " "));
+  const [translations] = await service.translate(cleanTexts, lang);
+  return translations;
 }
 
 async function generateLocaleFile(lang) {

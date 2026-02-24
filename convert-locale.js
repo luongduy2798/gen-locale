@@ -10,7 +10,7 @@ const CONFIG = {
   PATH_SAVE: "locale",
   IS_INSERT: false,
   IS_FIRST_CHAR_UPPER_CASE: false,
-  BATCH_SIZE: Math.min(50, Object.values(localeJson).length),
+  BATCH_SIZE: Math.min(200, Object.values(localeJson).length),
   LANGUAGES: [
     "ar", "de", "en", "es", "fr", "id", "ja", "ko", 
     "pt", "ru", "th", "tl", "tr", "vi", "zh-cn", "zh-tw"
